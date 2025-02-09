@@ -9,15 +9,17 @@ function About() {
           <h2 className="font-semibold font-mono">Front-End-Developer</h2>
         </div>
 
-        <div className="  flex justify-between ">
+        <div className=" hidden sm:flex justify-evenly  p-3">
+
           <div className="  flex flex-col text-center justify-center  ">
             <h1>
-              Im a junior front-end developer i have two years experience in relative field ill make responsive websites using css and tailwind css
+              Hey Im a junior front-end developer. <br /> I have two years of experience in relative field. <br /> Ill make responsive websites using  tailwind css. <br />
               ill learn web-development full course in Smit-Aziz-Jan Trust Peshawar 
             </h1>
+            
             <div className="flex justify-center gap-5 mt-8">
-            <button>My-Projects</button>
-            <button>My-Projects</button>
+            <button className="border border-black rounded-md p-1">My-Projects</button>
+            <button className="border border-black rounded-md p-1">My-Skills</button>
             </div>
 
           </div>
@@ -28,6 +30,38 @@ function About() {
 
 
         </div>
+
+
+
+
+
+
+
+
+
+{/* This is for mobile */}
+
+        <div className="sm:hidden flex justify-evenly   p-3">
+
+<div className="  flex flex-col text-center justify-center  ">
+  <h1>
+    Hey Im a junior front-end developer. <br /> I have two years of experience in relative field. <br /> Ill make responsive websites using  tailwind css. <br />
+    ill learn web-development full course in Smit-Aziz-Jan Trust Peshawar 
+  </h1>
+  
+  <div className="flex justify-center gap-5 mt-8">
+  <button className="border border-black rounded-md p-1">My-Projects</button>
+  <button className="border border-black rounded-md p-1">My-Skills</button>
+  </div>
+
+</div>
+
+<div className="  ">
+  <img src={profile}  className="h-36 w-36 rounded-full" />
+</div>
+
+
+</div>
       </div>
     </>
   );

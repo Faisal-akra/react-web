@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <div className="">
-    <div className=" p-5 flex justify-between  bg-blue-300 w-full   ">
+    <div className=" p-5 flex justify-between bg-blue-200  w-full   ">
 
       <div className="">
         <h1>Faisal-Akram</h1>

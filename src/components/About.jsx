@@ -3,9 +3,9 @@ import profile from "../assets/about/profile.png";
 function About() {
   return (
     <>
-      <div className=" p-3">
+      <div id="about" className=" p-3">
         <div className="flex justify-center flex-col content-center text-center  p-3 mt-20">
-          <h1 id="about" className="font-extrabold font-sans">Hi, Im Faisal-Akram</h1>
+          <h1  className="font-extrabold font-sans">Hi, Im Faisal-Akram</h1>
           <h2 className="font-semibold font-mono">Front-End-Developer</h2>
         </div>
 
@@ -18,8 +18,9 @@ function About() {
             </h1>
             
             <div className="flex justify-center gap-5 mt-8">
-            <button className="border border-black rounded-md p-1">My-Projects</button>
-            <button className="border border-black rounded-md p-1">My-Skills</button>
+            <button className="border border-black rounded-md p-1"><a href="#projects">My-Projects</a></button>
+            <button className="border border-black rounded-md p-1"><a href="#skill">My-Skills</a></button>
+            
             </div>
 
           </div>

@@ -10,25 +10,25 @@ function Skill() {
     <div className="p-5">
       <h1 id="skill" className=" text-center font-extrabold p-5">Skills</h1>
 
-      <div className="hidden sm:flex justify-evenly text-center group ">
+      <div className="hidden sm:flex justify-evenly text-center group  ">
 
 
-        <div className=" w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white">
+        <div className=" w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white rounded-xl">
           <img src={html} alt="" />
-          <p>HTML</p>
+          <p >HTML</p>
         </div>
 
            
-        <div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+        <div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
         <img src={css} alt="" />
         <p>Tailwind css </p>
           
         </div>
 
 
-        <div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+        <div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
         <img src={java} alt="" />
-        <p>Java Script</p>
+        
 
         </div>
 
@@ -40,21 +40,21 @@ function Skill() {
       <div className="hidden sm:flex justify-evenly text-center group mt-10  ">
 
 
-        <div className="bg-blue-400 w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white">
+        <div className=" w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white rounded-xl">
         <img src={react} alt="" />
         <p>React</p>
 
         </div>
 
            
-        <div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+        <div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
         <img src={github} alt="" />
         <p>Github</p>
 
         </div>
 
 
-        <div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+        <div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
         <img src={git} alt="" />
         <p>Git</p>
 
@@ -83,20 +83,20 @@ function Skill() {
       <div className="sm:hidden flex justify-evenly text-center group gap-8 ">
 
 
-<div className=" w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white">
+<div className=" w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white rounded-xl">
   <img src={html} alt="" />
   <p>HTML</p>
 </div>
 
    
-<div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+<div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
 <img src={css} alt="" />
 <p>Tailwind css </p>
   
 </div>
 
 
-<div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+<div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
 <img src={java} alt="" />
 <p>Java Script</p>
 
@@ -110,21 +110,21 @@ function Skill() {
 <div className="sm:hidden flex justify-evenly text-center group mt-5 gap-8 ">
 
 
-<div className="bg-blue-400 w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white">
+<div className=" w-56 h-50 text-center justify-center content-center  border border-black p-5 hover:bg-blue-800 hover:text-white rounded-xl">
 <img src={react} alt="" />
 <p>React</p>
 
 </div>
 
    
-<div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+<div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
 <img src={github} alt="" />
 <p>Github</p>
 
 </div>
 
 
-<div className="bg-blue-400 w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white">
+<div className=" w-56 h-50 text-center justify-center content-center border border-black   hover:bg-blue-800 hover:text-white rounded-xl">
 <img src={git} alt="" />
 <p>Git</p>
 

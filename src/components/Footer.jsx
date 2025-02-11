@@ -12,14 +12,14 @@ const Footer = () => {
         <img src={watsapp} alt="" />
         </a>
        
-        <a href="https://wa.me/03149061501">
+        <a href="https://github.com/Faisal-akra">
         <img src={github} alt="" />
         </a>
         
-        <a href="https://wa.me/03149061501">
+        <a href="https://www.linkedin.com/in/faisal-akram-7962a9257/">
         <img src={linkdin} alt="" />
         </a>
-        <a href="zjan45097@gmail.com">
+        <a href="mailto:zjan45097@gmail.com">
         <img src={email} alt="" />
         </a>
 

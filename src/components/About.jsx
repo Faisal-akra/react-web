@@ -17,9 +17,9 @@ function About() {
               ill learn web-development full course in Smit-Aziz-Jan Trust Peshawar 
             </h1>
             
-            <div className="flex justify-center gap-5 mt-8">
-            <button className="border border-black rounded-md p-1"><a href="#projects">My-Projects</a></button>
-            <button className="border border-black rounded-md p-1"><a href="#skill">My-Skills</a></button>
+            <div className="flex justify-center gap-5 mt-8 ">
+            <button className="border border-black rounded-md p-1 hover:bg-red-500 hover:text-white "><a href="#projects">My-Projects</a></button>
+            <button className="border border-black rounded-md p-1 hover:bg-red-500 hover:text-white"><a href="#skill">My-Skills</a></button>
             
             </div>
 

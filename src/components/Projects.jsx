@@ -15,7 +15,7 @@ const Projects = () => {
 
 
       <div className="group border border-x-red-900 w-96 ">
-        <div className=" p-2 w-96 border border-black relative flex justify-center items-center  group-hover:bg-red-500 ">
+        <div className=" p-2 w-96 border border-black relative flex justify-center items-center  group-hover:bg-red-500  ">
           <img
             src={api}
             alt="project-img"

@@ -43,7 +43,7 @@ const Projects = () => {
 
           <div className=" absolute inset-0 flex justify-center items-center">
             <button className=" opacity-0 group-hover:opacity-100 group-hover:border group-hover:h-8 group-hover:w-20  group-hover:bg-red-400 group-hover:rounded-md group-hover:text-white  ">
-              <a href="https://faisal-akra.github.io/Cofee_Shoop_Website/?authuser=0">View SIte</a>
+              <a href="https://coffee-shop-livid-sigma.vercel.app/">View SIte</a>
             </button>
           </div>
         </div>
@@ -62,7 +62,7 @@ const Projects = () => {
 
           <div className=" absolute inset-0 flex justify-center items-center">
             <button className=" opacity-0 group-hover:opacity-100 group-hover:border group-hover:h-8 group-hover:w-20  group-hover:bg-red-400 group-hover:rounded-md group-hover:text-white  ">
-              <a href="https://faisal-akra.github.io/books_Website/?authuser=0">View SIte</a>
+              <a href="https://books-website-react.vercel.app/">View SIte</a>
             </button>
           </div>
         </div>

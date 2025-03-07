@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="">
+    <div className=" ">
     <div className="flex flex-col  sm:flex-row justify-between bg-blue-200  w-full p-5  ">
 
       <div className="">

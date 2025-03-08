@@ -4,12 +4,12 @@ function About() {
   return (
     <>
       <div id="about" className=" p-3">
-        <div className="hidden md:flex justify-center flex-col content-center text-center  p-3 mt-20">
+        <div className="hidden lg:flex justify-center flex-col content-center text-center  p-3 mt-20">
           <h1 className="font-extrabold font-sans">Hi, Im Faisal-Akram</h1>
           <h2 className="font-semibold font-mono">Front-End-Developer</h2>
         </div>
 
-        <div className="hidden  md:flex justify-evenly  p-3">
+        <div className="hidden  lg:flex justify-evenly  p-3">
           <div className="  flex flex-col text-center justify-center  ">
             <h1>
               Hey Im Front-end developer. <br /> I have two years of experience
@@ -20,10 +20,10 @@ function About() {
             </h1>
 
             <div className="flex justify-center gap-5 mt-8 ">
-              <button className="border border-black rounded-md p-1 hover:bg-red-500 hover:text-white ">
+              <button className="border border-black rounded-lg p-1 hover:bg-red-500 hover:text-white ">
                 <a href="#projects">My-Projects</a>
               </button>
-              <button className="border border-black rounded-md p-1 hover:bg-red-500 hover:text-white">
+              <button className="border border-black rounded-lg p-1 hover:bg-red-500 hover:text-white">
                 <a href="#skill">My-Skills</a>
               </button>
             </div>
@@ -50,7 +50,7 @@ function About() {
 
 
 
-          <div className=" sm:hidden flex flex-col text-center justify-center  ">
+          <div className=" lg:hidden flex flex-col text-center justify-center  ">
 
 
           <div className="flex justify-center mt-5  ">

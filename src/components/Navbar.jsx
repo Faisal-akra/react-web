@@ -28,10 +28,10 @@ function Navbar() {
 
 
         <div className="flex justify-evenly ">
-        <a href="about">About</a>
+        <a href="#about">About</a>
         <a href="#skill">Skills</a>
         <a href="#about">Projects</a>
-        <a href="contact">Contact</a>
+        <a href="#contact">Contact</a>
         </div>
    
 

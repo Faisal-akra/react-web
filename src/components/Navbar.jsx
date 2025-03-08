@@ -1,7 +1,9 @@
 function Navbar() {
   return (
-    <div className=" ">
-    <div className="flex flex-col  lg:flex-row justify-between bg-blue-200  w-full p-5  ">
+    <div className="">
+
+
+    <div className=" hidden lg:flex flex-col  lg:flex-row justify-between bg-blue-200  w-full p-5  ">
 
       <div className="hidden lg:flex">
         <h1 className="font-bold">Faisal-Akram</h1>
@@ -14,17 +16,18 @@ function Navbar() {
         <a href="#footer" className="font-bold">Contact</a>
 
       </div>
+      </div>
 
 
 
-      <div className="lg:hidden flex flex-col justify-center">
+      <div className="lg:hidden flex flex-col  bg-blue-500  ">
        
-      <div className="flex ">
+      <div className="flex items-center justify-center ">
         <h1 className="font-bold text-center">Faisal-Akram</h1>
       </div>
 
 
-        <div className="flex gap-4 ">
+        <div className="flex justify-evenly ">
         <a href="about">About</a>
         <a href="#skill">Skills</a>
         <a href="#about">Projects</a>
@@ -33,7 +36,6 @@ function Navbar() {
    
 
       </div>
-    </div>
     </div>
 
 
